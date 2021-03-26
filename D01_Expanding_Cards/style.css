@@ -49,6 +49,9 @@ body {
 }
 
 .panel.active h3 {
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgba(247,105,2, 0.8);
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
