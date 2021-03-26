@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: rgb(36, 36, 36);
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,7 +22,8 @@ body {
 }
 
 .panel {
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
@@ -32,7 +34,7 @@ body {
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
-
+    background-color: rgba(0,0,0, 0.1);
 }
 
 .panel h3 {
@@ -49,9 +51,10 @@ body {
 }
 
 .panel.active h3 {
+    font-weight: 100;
     padding: 15px;
-    border-radius: 50px;
-    background-color: rgba(247,105,2, 0.8);
+    border-radius: 60px;
+    background-color: rgba(109, 104, 100, 0.5);
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
